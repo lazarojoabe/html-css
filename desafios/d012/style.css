@@ -1,0 +1,14 @@
+@charset "UTF-8";
+footer{
+    background-color: rgba(0, 0, 0, 0.297);
+    color: white;
+    text-align: center;
+}
+footer > nav > abbr{
+    padding-right: 10px;
+    margin: 0px;
+}
+footer > nav > abbr:hover{
+    background-color: lightgray;
+    padding: 10px 7px 0px 7px;
+}
