@@ -50,11 +50,24 @@ section.normal{
 section.image{
     background-color: rgb(52, 52, 52);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.402);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.image#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    text-shadow: 1px 1px 0px black;
+}
+section.image#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    text-shadow: 1px 1px 0px black;
 }
 section.image > p{
     display: inline-block;
     padding: 7px;
-    background-color: rgba(0, 0, 0, 0.352);
+    background-color: rgba(0, 0, 0, 0.509);
 }
 footer{
     background-color: black;
